@@ -83,7 +83,8 @@ Short coming:
 
 2. Classifying lines into right or left by slope is not accurate. A misclassification would introduce large error in calculating average slope.
 
+3. Not robust. A slightly changing enviroment may disturb line identification.
 
 ###3. Suggest possible improvements to your pipeline
 
-1. Modify fitLine. Currently outliers still strongly effect averaging line when using fitLine in openCV. Changing to another fitting methods (like )
+1. Modify fitLine(). Currently outliers still strongly effect averaging line when using fitLine in openCV. Changing to another fitting methods may solve this problem.
